@@ -1,0 +1,18 @@
+[package]
+name = "zahir"
+version = "0.1.0"
+edition = "2021"
+authors = ["Robert Fogarty <rgaf@purgator.io>"]
+
+[dependencies]
+byteorder = "1.5"
+enum-map = "2.7"
+itertools = "0.10"
+num-traits = "0.2"
+rand = "0.8"
+rand_chacha = "0.3"
+rand_distr = "0.4"
+
+[dev-dependencies]
+image = "0.23"
+minifb = "0.20"
